@@ -129,8 +129,13 @@ input.coord.err { border-color: var(--bad); }
 
 /* ---------- hot ---------- */
 .sun { display: flex; justify-content: center; margin: 30px 0 10px; }
-.sun svg { width: 230px; height: 230px; margin: -20px 0; animation: breathe 4s ease-in-out infinite; }
-@keyframes breathe { 0%,100% { transform: scale(1); } 50% { transform: scale(1.035); } }
+.sun svg { width: 230px; height: 230px; margin: -20px 0; overflow: visible; animation: breathe 3s ease-in-out infinite; }
+.sun .halo, .sun .cor { transform-box: fill-box; transform-origin: center; }
+.sun .halo { animation: halo 3s ease-in-out infinite; }
+.sun .cor { animation: cor 3s ease-in-out infinite; }
+@keyframes breathe { 0%,100% { transform: scale(1); } 50% { transform: scale(1.05); } }
+@keyframes halo { 0%,100% { transform: scale(.95); opacity: .4; } 50% { transform: scale(1.22); opacity: .95; } }
+@keyframes cor { 0%,100% { transform: scale(.97); opacity: .8; } 50% { transform: scale(1.1); opacity: 1; } }
 .rounds { display: flex; gap: 10px; margin-top: 18px; }
 .rounds div { flex: 1; text-align: center; padding: 12px 6px; border-radius: 14px; background: var(--card); border: 1.5px solid var(--card-border); }
 .rounds b { display: block; font: 600 24px Fraunces, serif; color: var(--accent-soft); }
