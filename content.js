@@ -60,7 +60,7 @@ window.CONTENT = {
       ok: 'Červené světlo oči z adaptace na tmu skoro nevytrhne.' },
     { round: 'Kolo 3 · Hvězdy',
       q: 'Co je ve skutečnosti červený trpaslík?',
-      a: ['malá chladná hvězda', 'loď s Listerem a Koczkou', 'vyhaslá planeta', 'typ komety'],
+      a: ['malá chladná hvězda', 'loď s Listerem a Kocourem', 'vyhaslá planeta', 'typ komety'],
       ok: 'Malá chladná hvězda. Ale loď je taky dobrá odpověď.' },
     { round: 'Kolo 3 · Hvězdy',
       q: 'Které souhvězdí zvěrokruhu je na obrázku? V prosinci večer ho uvidíš vysoko na obloze.',
