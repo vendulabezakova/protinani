@@ -108,7 +108,7 @@ window.CONTENT = {
 
   envelope3: {
     eyebrow: 'Obálka 3',
-    title: 'Abys byl připravený, otevři obálku č. 3',
+    title: 'Abys byl připravený i na invazi z vesmíru, otevři obálku č. 3',
     text: 'Na zimní večery, než vyrazíme. Ať se na tu oblohu těšíme oba.',
     button: 'Otevřeno'
   },
