@@ -69,9 +69,9 @@ window.CONTENT = {
       a: ['Býk', 'Blíženci', 'Lev', 'Štír'],
       ok: 'Býk. Ta jasná oranžová hvězda je Aldebaran.' },
     { round: 'Kolo 3 · Hvězdy',
-      q: 'Co v místě s opravdu tmavou oblohou uvidíš pouhým okem, ale z Brna ne?',
-      a: ['Mléčnou dráhu', 'Měsíc', 'Polárku', 'Venuši'],
-      ok: 'Mléčnou dráhu. Jedeme se na ni podívat.' }
+      q: 'V Česku jsou tři oblasti tmavé oblohy. Která je nám nejblíž?',
+      a: ['Beskydská', 'Jizerská', 'Manětínská', 'Pálavská'],
+      ok: 'Beskydská. A teď se podívej, kde leží tvůj bod…' }
   ],
 
   wrong: ['Skoro…', 'Vedle jak ta jedle.', 'Tohle by na pub kvízu neprošlo.', 'Zkus to ještě jednou.'],
