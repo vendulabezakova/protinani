@@ -295,7 +295,7 @@
   screens.end = function () {
     var E = C.end;
     var opt = C.concept.options.filter(function (o) { return o.id === state.choice; })[0];
-    var msg = E.message.replace('{volba}', opt ? opt.title.toLowerCase() + ' (' + opt.text + ')' : '');
+    var msg = E.message.replace('{volba}', opt ? (opt.when || opt.title.toLowerCase()) : '');
     app.innerHTML = '<section class="screen"><span class="eyebrow">' + E.eyebrow + '</span>' +
       '<div class="stack" style="margin-top:12px"><h1 class="big">' + E.title + '</h1><p class="lead">' + E.text + '</p></div>' +
       '<div class="box" id="box"><h2>' + E.selfieTitle + '</h2><p class="small">' + E.selfieText + '</p>' +

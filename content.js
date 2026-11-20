@@ -97,11 +97,11 @@ window.CONTENT = {
   concept: {
     eyebrow: 'Skutečný dárek',
     title: 'Rébus byl jen začátek',
-    text: '[Vendin text: vánoční dárek byl tenhle rébus, ale skutečný dárek je společná cesta do Beskyd. Pozorování noční oblohy s průvodcem a pak noc venku nebo na chatě.]',
+    text: 'Doufám, že sis luštění užil. Vymyslela jsem ho, protože skutečný dárek není nic, co rozbalíš hned. Je to společný zážitek, na který si pár měsíců počkáme: výlet do Beskyd a večer s průvodcem u dalekohledu.<br><br>A neboj, žádná noční turistika. Budeme stát u dalekohledu a průvodce nám bude ukazovat, co na obloze vidíme. 😄',
     question: 'Kdy pojedeme? Vyber si:',
     options: [
-      { id: 'jaro', title: 'Jaro', text: 'víkend s ubytováním na chatě' },
-      { id: 'leto', title: 'Léto', text: 'po pozorování spaní pod širákem' }
+      { id: 'jaro', title: 'Jaro', when: 'na jaře', text: 'dřív, přespíme na chatě v okolí Gruně a spojíme to s turistikou' },
+      { id: 'leto', title: 'Léto', when: 'v létě', text: 'až noci nebudou pod 10 °C, abych ve spacáku nezmrzla, a přespíme pod širákem' }
     ],
     button: 'Potvrdit volbu'
   },
