@@ -84,14 +84,6 @@ window.CONTENT = {
     title: 'Gruň',
     subtitle: 'Beskydská oblast tmavé oblohy',
     text: 'Místo, kde se v noci skoro nesvítí, takže je vidět Mléčná dráha. [Vzkaz od Vendy.]',
-    factsTitle: 'Věděl jsi, že…',
-    facts: [
-      'První schůzka o vzniku oblasti se v květnu 2012 konala na chatě Švarná Hanka – přímo na Gruni.',
-      'Oblast je česko-slovenská: 308 km², 7 obcí u nás a 5 na Slovensku.',
-      'Vyhlásili ji v březnu 2013 ke 40. narozeninám CHKO Beskydy.',
-      'Nejvyšší bod je Lysá hora (1 323 m) – tu máš i na mapě.',
-      'Jizerská oblast tmavé oblohy byla první svého druhu, ale tahle je k nám nejblíž.'
-    ],
     button: 'Pokračovat'
   },
 
