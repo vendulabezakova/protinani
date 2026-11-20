@@ -116,7 +116,7 @@ window.CONTENT = {
   end: {
     eyebrow: 'Konec rébusu',
     title: 'Vyluštěno!',
-    text: '[Závěrečné přání od Vendy.]',
+    text: 'Krásné Vánoce! Ať ti v novém roce všechny body vycházejí, a hlavně ten náš na Gruni.',
     selfieTitle: 'Dostal ses až sem?',
     selfieText: 'Pošli jako důkaz fotku, abych věděla, že jsi dárky neotevřel bez zodpovězení otázek! 😄😘',
     selfieButton: 'Vyfotit se',
