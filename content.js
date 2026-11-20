@@ -53,7 +53,7 @@ window.CONTENT = {
     { round: 'Kolo 2 · Tma',
       q: 'Jak dlouho si oči zvykají na tmu, než uvidíme nejslabší hvězdy?',
       a: ['asi půl hodiny', 'asi 30 sekund', 'asi 5 minut', 'celou noc'],
-      ok: 'Proto se na pozorování nesvítí do mobilu.' },
+      ok: 'Oči si zvykají zhruba půl hodiny. Jeden pohled do rozsvíceného mobilu a začínají skoro od nuly.' },
     { round: 'Kolo 2 · Tma',
       q: 'Jakým světlem si na pozorování svítit, aby si oči tmu udržely?',
       a: ['červeným', 'modrým', 'bílým, ale slabým', 'zeleným'],
