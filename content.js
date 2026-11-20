@@ -101,7 +101,7 @@ window.CONTENT = {
     question: 'Kdy pojedeme? Vyber si:',
     options: [
       { id: 'jaro', title: 'Jaro', when: 'na jaře', text: 'dřív, přespíme na chatě v okolí Gruně a spojíme to s turistikou' },
-      { id: 'leto', title: 'Léto', when: 'v létě', text: 'až noci nebudou pod 10 °C, abych ve spacáku nezmrzla, a přespíme pod širákem' }
+      { id: 'leto', title: 'Léto', when: 'v létě', text: 'až noci nebudou pod\u00a010 °C, abych ve spacáku nezmrzla, a přespíme pod širákem' }
     ],
     button: 'Potvrdit volbu'
   },
