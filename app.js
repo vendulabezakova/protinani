@@ -2,20 +2,6 @@
   'use strict';
   var C = window.CONTENT;
 
-  // Česká typografie: nezalomitelná mezera za jednopísmennými předložkami a spojkami
-  // (v, s, k, z, o, u, a, i) a mezi číslem a jednotkou, aby nezůstávaly na konci řádku.
-  function nbsp(t) {
-    return t
-      .replace(/(^|[\s(>])([ksvzouaiKSVZOUAI])\s+/g, '$1$2\u00a0')
-      .replace(/(^|[\s(>])([ksvzouaiKSVZOUAI])\s+/g, '$1$2\u00a0')
-      .replace(/(\d)\s+(°C|°|m\b|km\b|%|Kč)/g, '$1\u00a0$2');
-  }
-  (function fix(o) {
-    for (var k in o) {
-      if (typeof o[k] === 'string') { if (k !== 'ga4' && k !== 'id') o[k] = nbsp(o[k]); }
-      else if (o[k] && typeof o[k] === 'object') fix(o[k]);
-    }
-  })(C);
   var app = document.getElementById('app');
   var KEY = 'protinani_v1';
 

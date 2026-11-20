@@ -49,7 +49,6 @@ h1 { margin: 0; font-family: Fraunces, Georgia, serif; font-weight: 600; color: 
 h1.q { font-size: 26px; line-height: 1.25; }
 h1.big { font-size: 38px; }
 p { margin: 0; }
-p, li, h1, .option span, .answer span { text-wrap: pretty; }
 .lead { color: var(--muted); font-size: 15px; }
 .small { font-size: 12px; color: var(--faint); }
 .stack { display: flex; flex-direction: column; gap: 10px; }
