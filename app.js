@@ -244,6 +244,7 @@
       progress(8) +
       '<div class="map-card">' + window.MAP_SVG + '</div>' +
       '<div class="reveal stack"><span class="eyebrow">' + F.eyebrow + '</span><h1 class="big">' + F.title + '</h1><span class="sub">' + F.subtitle + '</span><p class="lead">' + F.text + '</p></div>' +
+      (F.facts && F.facts.length ? '<div class="facts reveal"><h2>' + F.factsTitle + '</h2><ul>' + F.facts.map(function (f) { return '<li>' + f + '</li>'; }).join('') + '</ul></div>' : '') +
       '<div class="spacer"></div><div class="actions reveal"><button class="btn" id="go">' + F.button + '</button></div></section>';
     document.getElementById('go').onclick = function () { go('env2'); };
   };

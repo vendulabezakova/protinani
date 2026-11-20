@@ -155,6 +155,11 @@ input.coord.err { border-color: var(--bad); }
 .pulse { animation: pulse 2s ease-out infinite; }
 .tw { animation: tw 2.6s ease-in-out infinite; }
 .reveal { margin-top: 22px; animation: fadein .6s ease 2.2s both; }
+.facts { margin-top: 20px; padding: 16px 18px; border-radius: 16px; background: var(--card); border: 1.5px solid var(--card-border); }
+.facts h2 { margin: 0 0 8px; font: 600 18px Fraunces, serif; color: var(--accent-soft); }
+.facts ul { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; }
+.facts li { position: relative; padding-left: 18px; font-size: 14px; color: var(--muted); }
+.facts li::before { content: '✦'; position: absolute; left: 0; top: 0; color: var(--accent); font-size: 11px; line-height: 21px; }
 .reveal .sub { font-size: 16px; font-weight: 500; color: #dfe3ee; }
 
 /* ---------- envelope ---------- */
