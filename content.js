@@ -48,7 +48,7 @@ window.CONTENT = {
       ok: 'Správně! Razula je ten prales.' },
     { round: 'Kolo 1 · Výpravy',
       q: 'Pramen které řeky jsme na Kraličáku navštívili?',
-      a: ['Moravu', 'Odru', 'Bečvu', 'Labe'],
+      a: ['Moravy', 'Odry', 'Bečvy', 'Labe'],
       ok: 'Jo, pramen Moravy. Hned pod Kraličákem.' },
     { round: 'Kolo 2 · Tma',
       q: 'Jak dlouho si oči zvykají na tmu, než uvidíme nejslabší hvězdy?',
