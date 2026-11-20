@@ -70,11 +70,12 @@
     '<path d="M0 360 L44 352 L92 355 L138 346 L176 349 L226 361 L276 357 L318 347 L356 352 L390 349 V400 H0Z" fill="#0b1222"/>';
 
   function hero() {
-    return '<div class="hero" aria-hidden="true"><svg viewBox="0 0 390 400" preserveAspectRatio="xMidYMax slice">' +
-      '<defs><linearGradient id="hsky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#070b18" stop-opacity="0"/><stop offset="0.5" stop-color="#0a1124" stop-opacity=".6"/><stop offset="0.8" stop-color="#101a3a"/><stop offset="1" stop-color="#0b1222"/></linearGradient></defs>' +
-      '<rect width="390" height="400" fill="url(#hsky)"/>' +
-      '<circle cx="318" cy="70" r="16" fill="#f3e9cf"/><circle cx="325" cy="64" r="15" fill="#0b1222" opacity="0.94"/>' +
-      RIDGES + '</svg></div>';
+    return '<div class="hero" aria-hidden="true"><svg viewBox="0 130 390 200" preserveAspectRatio="xMidYMax slice">' +
+      '<defs><linearGradient id="hsky" x1="0" y1="130" x2="0" y2="330" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0b1222" stop-opacity="0"/><stop offset="0.55" stop-color="#101a3a"/><stop offset="1" stop-color="#0b1222"/></linearGradient>' +
+      '<linearGradient id="hfade" x1="0" y1="285" x2="0" y2="330" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0b1222" stop-opacity="0"/><stop offset="1" stop-color="#0b1222"/></linearGradient></defs>' +
+      '<rect y="130" width="390" height="200" fill="url(#hsky)"/>' +
+      '<mask id="moon"><rect x="290" y="140" width="60" height="60" fill="#fff"/><circle cx="324" cy="163" r="13" fill="#000"/></mask><circle cx="318" cy="168" r="14" fill="#f3e9cf" mask="url(#moon)"/>' +
+      RIDGES + '<rect y="285" width="390" height="45" fill="url(#hfade)"/></svg></div>';
   }
   function footRidges() {
     return '<div aria-hidden="true" style="position:fixed;left:0;right:0;bottom:0;height:150px;z-index:-1;pointer-events:none">' +
@@ -142,10 +143,10 @@
   screens.intro = function () {
     var I = C.intro;
     app.innerHTML = '<section class="screen">' + hero() +
-      '<div class="stack" style="margin-top:8px"><span class="eyebrow">' + I.eyebrow + '</span><h1>' + I.title + '</h1><p class="lead">' + I.text + '</p></div>' +
+      '<div class="stack" style="margin-top:4px"><span class="eyebrow">' + I.eyebrow + '</span><h1>' + I.title + '</h1><p class="lead">' + I.text + '</p></div>' +
       '<form id="f" novalidate><div class="fields">' +
-      '<label>Y <span>S-JTSK, m</span><input class="coord" id="y" inputmode="decimal" autocomplete="off" placeholder="000 000"></label>' +
-      '<label>X <span>S-JTSK, m</span><input class="coord" id="x" inputmode="decimal" autocomplete="off" placeholder="0 000 000"></label>' +
+      '<label><span class="lab"><b>Y</b> S-JTSK, m</span><input class="coord" id="y" inputmode="decimal" autocomplete="off" placeholder="000 000"></label>' +
+      '<label><span class="lab"><b>X</b> S-JTSK, m</span><input class="coord" id="x" inputmode="decimal" autocomplete="off" placeholder="0 000 000"></label>' +
       '</div><p class="small hint">' + I.hint + '</p><div id="res"></div>' +
       '<div class="spacer"></div><div class="actions"><button class="btn" type="submit">' + I.button + '</button></div></form></section>';
     var y = document.getElementById('y'), x = document.getElementById('x');
