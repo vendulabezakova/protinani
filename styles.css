@@ -138,7 +138,8 @@ input.coord.err { border-color: var(--bad); }
 @keyframes cor { 0%,100% { transform: scale(.97); opacity: .8; } 50% { transform: scale(1.1); opacity: 1; } }
 .rounds { display: flex; gap: 10px; margin-top: 18px; }
 .rounds div { flex: 1; text-align: center; padding: 12px 6px; border-radius: 14px; background: var(--card); border: 1.5px solid var(--card-border); }
-.rounds b { display: block; font: 600 24px Fraunces, serif; color: var(--accent-soft); }
+.rounds small { display: block; font-size: 10px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--faint); }
+.rounds b { display: block; margin: 2px 0; font: 600 19px Fraunces, serif; color: var(--accent-soft); }
 .rounds span { font-size: 12px; color: var(--muted); }
 
 /* ---------- finale ---------- */

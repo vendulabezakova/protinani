@@ -30,7 +30,7 @@ window.CONTENT = {
   hot: {
     title: 'Hoří!',
     text: 'Souřadnice sedí. Co na tom místě je, se dozvíš, až odpovíš na osm otázek.',
-    rounds: 'Tři kola jako na pub kvízu: naše výpravy, tma, hvězdy.',
+    rounds: 'Tři kola jako na pub kvízu:',
     button: 'Začít kvíz'
   },
 

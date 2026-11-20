@@ -178,7 +178,9 @@
     app.innerHTML = '<section class="screen"><span class="eyebrow">Měření sedí</span>' +
       '<div class="sun">' + SUN + '</div>' +
       '<div class="stack"><h1 class="big">' + H.title + '</h1><p class="lead">' + H.text + '</p><p class="lead">' + H.rounds + '</p></div>' +
-      '<div class="rounds"><div><b>3</b><span>výpravy</span></div><div><b>2</b><span>tma</span></div><div><b>3</b><span>hvězdy</span></div></div>' +
+      '<div class="rounds">' + [['1', 'Výpravy', '3 otázky'], ['2', 'Tma', '2 otázky'], ['3', 'Hvězdy', '3 otázky']].map(function (r) {
+        return '<div><small>Kolo ' + r[0] + '</small><b>' + r[1] + '</b><span>' + r[2] + '</span></div>';
+      }).join('') + '</div>' +
       '<div class="spacer"></div><div class="actions"><button class="btn" id="go">' + H.button + '</button></div></section>';
     document.getElementById('go').onclick = function () { state.qi = 0; go('quiz'); };
   };
