@@ -177,7 +177,7 @@
     var H = C.hot;
     app.innerHTML = '<section class="screen"><span class="eyebrow">Měření sedí</span>' +
       '<div class="sun">' + SUN + '</div>' +
-      '<div class="stack"><h1 class="big">' + H.title + '</h1><p class="lead">' + H.text + '</p><p class="lead">' + H.rounds + '</p></div>' +
+      '<div class="stack"><h1 class="big">' + H.title + '</h1><p class="lead">' + H.text + '</p></div>' +
       '<div class="rounds">' + [['1', 'Výpravy', '3 otázky'], ['2', 'Tma', '2 otázky'], ['3', 'Hvězdy', '3 otázky']].map(function (r) {
         return '<div><small>Kolo ' + r[0] + '</small><b>' + r[1] + '</b><span>' + r[2] + '</span></div>';
       }).join('') + '</div>' +
