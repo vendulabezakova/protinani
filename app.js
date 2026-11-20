@@ -301,8 +301,9 @@
       '<input type="file" accept="image/*" capture="user" id="cam" class="sr"></label>' +
       '<button class="btn ghost" id="send" type="button" style="margin-top:12px">' + E.skip + '</button></div>' +
       '<p class="small" id="note" style="margin-top:14px"></p>' +
-      '<div class="spacer"></div></section>' + footRidges();
+      '<div class="spacer"></div><div class="actions"><button class="btn ghost" id="home" type="button">Zpět na úvodní stránku</button></div></section>' + footRidges();
     track('konec');
+    document.getElementById('home').onclick = function () { state.qi = 0; state.choice = null; state.attempts = 0; go('intro'); };
     var file = null;
     var cam = document.getElementById('cam'), send = document.getElementById('send');
     cam.onchange = function () {
