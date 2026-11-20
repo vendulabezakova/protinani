@@ -83,7 +83,7 @@ window.CONTENT = {
     eyebrow: 'Tvůj bod',
     title: 'Gruň',
     subtitle: 'Beskydská oblast tmavé oblohy',
-    text: 'Místo, kde se v noci skoro nesvítí, takže je vidět Mléčná dráha. [Vzkaz od Vendy.]',
+    text: 'Na tomto místě v Beskydech se skoro nesvítí a je odtud krásně vidět Mléčná dráha. Proč by tě to mělo zajímat, říkáš si? Pokračuj dál.',
     button: 'Pokračovat'
   },
 
