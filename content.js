@@ -5,7 +5,7 @@
 
 window.CONTENT = {
   // GA4 Measurement ID (tvar G-XXXXXXXXXX). Prázdné = měření vypnuté.
-  ga4: '',
+  ga4: 'G-QN9GL687TR',
 
   // Číslo nebo jméno, které se nabídne při sdílení (jen do textu zprávy).
   vendy: 'Vendy',
